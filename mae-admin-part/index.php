@@ -55,7 +55,7 @@ if (!isset($_SESSION['user_id'])) {
     <div class="user-container">
       <img src="ACCESS.jpg" alt="Admin User" class="user-image">
       <h6 class="mb-0 text-white">Administrator</h6>
-      <small class="text-white-50">Admin User</small>
+      <small class="text-white-50">ADMIN USER</small>
       <a href="logout.php" class="btn btn-outline-light btn-sm w-100 mt-3">
         <i class="bi bi-box-arrow-right me-1"></i> Log Out
       </a>
