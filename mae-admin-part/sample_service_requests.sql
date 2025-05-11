@@ -1,0 +1,12 @@
+-- Insert sample service requests
+INSERT INTO service_requests (service_name, category, requester_id, requester_name, request_date, status, description, notes) VALUES
+('Housing Application Assistance', 'Housing Assistance', 'MEM001', 'John Smith', '2024-03-15 09:30:00', 'Pending', 'Need help completing housing application for low-income housing program. Having trouble understanding some of the documentation requirements.', 'Client needs assistance with documentation requirements'),
+('Emergency Financial Aid', 'Financial Aid', 'MEM002', 'Maria Garcia', '2024-03-14 14:15:00', 'Approved', 'Urgent need for financial assistance due to unexpected medical expenses. Need help with utility bills this month.', 'Approved for emergency assistance fund'),
+('ESL Classes Registration', 'Education Support', 'MEM003', 'Ahmed Hassan', '2024-03-13 11:00:00', 'Pending', 'Looking to register for English as a Second Language classes. Need help with the registration process and understanding class schedules.', NULL),
+('Legal Consultation', 'Legal Services', 'MEM004', 'Sarah Johnson', '2024-03-12 16:45:00', 'Declined', 'Need legal advice regarding tenant rights and lease agreement issues.', 'Referred to pro bono legal services'),
+('Job Search Assistance', 'Employment', 'MEM005', 'Robert Chen', '2024-03-11 10:20:00', 'Approved', 'Looking for help with resume writing and job search strategies in the IT field.', 'Assigned to career counselor'),
+('Healthcare Navigation', 'Healthcare', 'MEM006', 'Lisa Martinez', '2024-03-10 13:30:00', 'Pending', 'Need help understanding healthcare options and insurance coverage for my family.', NULL),
+('Food Bank Access', 'Other', 'MEM007', 'David Wilson', '2024-03-09 15:00:00', 'Approved', 'Requesting information about local food banks and assistance programs.', 'Provided list of local food banks'),
+('Childcare Support', 'Other', 'MEM008', 'Emily Brown', '2024-03-08 09:15:00', 'Pending', 'Looking for affordable childcare options in the downtown area.', NULL),
+('Transportation Assistance', 'Other', 'MEM009', 'Michael Taylor', '2024-03-07 14:30:00', 'Declined', 'Need help with transportation costs for medical appointments.', 'Referred to transportation assistance program'),
+('Senior Care Services', 'Healthcare', 'MEM010', 'Patricia Lee', '2024-03-06 11:45:00', 'Approved', 'Seeking information about senior care services and home health aide programs.', 'Connected with senior services coordinator'); 
